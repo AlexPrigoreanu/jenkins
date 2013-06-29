@@ -1,4 +1,3 @@
-
 /****************************************************************************
 **
 ** Copyright (C) 2011 Nokia Corporation and/or its subsidiary(-ies).
@@ -105,7 +104,7 @@ int main(int argc, char *argv[])
 
     // ----------------------------------------------------------------------------
     void reshape(int width, int height)
-    {
+    {   int xVarnew;
         const double aspectRatio = (float) width / height, fieldOfView = 45.0;
 
         glMatrixMode(GL_PROJECTION);
