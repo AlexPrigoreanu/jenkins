@@ -151,6 +151,7 @@ int main(int argc, char *argv[])
         }
         *trafo = prev;
         int breal=0;
+        int creallllll=0;
     }
 
     // ----------------------------------------------------------------------------
