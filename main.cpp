@@ -125,7 +125,7 @@ int main(int argc, char *argv[])
     ){
          aiMatrix4x4 prev;
         unsigned int n = 0, t;
-
+        int unreally;
         prev = *trafo;
         aiMultiplyMatrix4(trafo,&nd->mTransformation);
 
