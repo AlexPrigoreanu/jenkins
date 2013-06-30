@@ -150,6 +150,7 @@ int main(int argc, char *argv[])
             get_bounding_box_for_node(nd->mChildren[n],min,max,trafo);
         }
         *trafo = prev;
+        int breal=0;
     }
 
     // ----------------------------------------------------------------------------
