@@ -112,6 +112,7 @@ int main(int argc, char *argv[])
         gluPerspective(fieldOfView, aspectRatio,
             1.0, 1000.0);  /* Znear and Zfar */
         glViewport(0, 0, width, height);
+        int xxxxxxxxxx;
     }
     static const char* fileFuori = "C:/assimp-master/test/models/3DS/k.3ds";
 
